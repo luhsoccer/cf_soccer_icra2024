@@ -1,9 +1,10 @@
 # Luhbots Soccer Software
 
-This repository contains the code used in the paper: Circular Field Motion Planning for Highly-Dynamic Multi-Robot Systems with Application to Robot Soccer
+This repository contains among other the code used in the paper: *Circular Field Motion Planning for Highly-Dynamic Multi-Robot Systems with Application to Robot Soccer*.
+It can be found in the `modules/local_planner` and `modules/local_planner_components` directory
 
 From Fabrice Zeug, Marvin Becker and Matthias A. Müller
-which was submitted to ICRA 2024. 
+which was submitted to ICRA 2024.
 Additional data and videos of the simulations and experiments can be found in the data repository: https://doi.org/10.25835/i5vzko1b
 
 ## Important Links:
