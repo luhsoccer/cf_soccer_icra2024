@@ -1,0 +1,79 @@
+# All files
+* @se7kn8 @DerFuchs123
+
+docker/ @se7kn8
+docs/ @se7kn8 @fabrice_zeug_luh
+
+start_sim.sh @se7kn8
+start_sim.bat @se7kn8
+
+.gitignore @luhbots
+
+# Modules
+modules/baguette/ @se7kn8
+tests/baguette/ @se7kn8
+
+modules/config_provider/ @DerFuchs123
+tests/config_provider/ @DerFuchs123
+
+modules/experiment_logger/ @fabrice_zeug_luh
+tests/experiment_logger/ @fabrice_zeug_luh
+
+modules/game_data_provider/ @DerFuchs123
+tests/game_data_provider/ @DerFuchs123
+
+modules/local_planner/ @Malte.Sp
+tests/local_planner/ @Malte.Sp
+
+modules/local_planner_components/ @Malte.Sp
+tests/local_planner_components/ @Malte.Sp
+
+modules/logger/ @se7kn8
+tests/logger/ @se7kn8
+
+modules/luhviz/ @TobiPahl @RobertHa
+tests/luhviz/ @TobiPahl @RobertHa
+
+modules/marker_service/ @TobiPahl @RobertHa
+tests/marker_service/ @TobiPahl @RobertHa
+
+modules/game_data_provider/include/observer/ @DerFuchs123
+modules/game_data_provider/src/observer/ @DerFuchs123
+tests/observer/ @DerFuchs123
+
+modules/precompiled_headers/ @se7kn8
+
+modules/robot_interface/ @se7kn8
+tests/robot_interface/ @se7kn8
+
+modules/scenario/ @Steff3n
+tests/scenario/ @Steff3n
+
+
+modules/simulation_interface/ @se7kn8
+tests/simulation_interface/ @se7kn8
+
+modules/skills/ @Steff3n
+tests/skills/ @Steff3n
+modules/python_bindings/src/bindings/skills.cpp @Steff3n
+
+modules/ssl_interface/ @se7kn8
+tests/ssl_interface/ @se7kn8
+
+modules/time/ @se7kn8
+tests/time/ @se7kn8
+
+modules/transform/ @se7kn8
+tests/transform/ @se7kn8
+
+# tests
+tests/CMakeLists.txt @luhbots
+
+tests_python/ @Steff3n
+
+# configs
+extern/cmake_rc/configs/ @luhbots
+modules/config_provider/include/config/ @luhbots
+modules/config_provider/include/config/skills_config.hpp @Steff3n 
+modules/config_provider/include/config/local_planner_components_config.hpp @Malte.Sp
+extern/cmake_rc/configs/local_planner_components.toml @Malte.Sp
